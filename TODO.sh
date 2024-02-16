@@ -16,7 +16,7 @@ sudo rm /var/www/html/index.html
 sudo apt-get install -y git
 sudo git clone https://github.com/saikatbsk/TODO.git
 sudo mv ./TODO/* /var/www/html/
-sed -i s/saikat/vadim/g /var/www/html/dbconnect.php
+sed -i s/saikat/garik/g /var/www/html/dbconnect.php
 sed -i s/ppioneer/garik123/g /var/www/html/dbconnect.php
 sed -i s/todo_db/info/g /var/www/html/dbconnect.php
 sudo apache2ctl restart
